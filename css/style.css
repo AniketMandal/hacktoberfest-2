@@ -18,7 +18,7 @@ body {
 h1 {
     color: #01ffff;
     text-align: center;
-    margin-bottom: 5px;
+    margin-bottom: 5.3px;
 }
 
 a {
@@ -49,13 +49,13 @@ img {
     color: #ff9a56;
 }
 
-@media (max-width: 600px){
+@media (max-width: 700px){
     .contributors{
         display: flex;
         flex-direction: column;
     }
     .contributors a{
-        margin: 5px 0;
+        margin: 5.3px 0;
     }
     .contributors a:not(:last-of-type)::after{
         content: "";
